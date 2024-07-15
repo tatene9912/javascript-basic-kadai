@@ -1,4 +1,4 @@
 const calculate = (num) => {
-    console.log(num * num);
+    return num * num;
 }
-calculate(100);
+console.log(calculate(100));
